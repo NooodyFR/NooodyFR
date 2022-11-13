@@ -35,9 +35,17 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
+          plugin_languages_ignored: C#, Jupyter Notebook
+          plugin_languages_limit: 6
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          plugin_repositories: yes
+          plugin_repositories_featured: NooodyFR/widevine.js, NooodyFR/mcshc, NooodyFR/mcshc-api
+          plugin_repositories_order: featured, pinned, starred, random
